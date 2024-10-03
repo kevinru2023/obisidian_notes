@@ -18,4 +18,8 @@
 ## Understanding the problem: 
 
  
-The problem is asking me to implement this real life basketball game, which has certain rules, I won't reiterate the exact rules as they are above, however I will go over the technical aspects over the problem. The first thing is I am going to have to get user(s) input on which position they want to put the money ball rack on, this would be an `int` between $[1,5]$ and store it in a var,  I would have to include error handling on this as the user is allowed to not put in an number in that range. Afterwards I will have to prompt the user to put in their "shooting capability" which is an `int` between $[1,99]$, again including error handling. Afterwards I am going to to have to implement the shooting for each rack  
+The problem is asking me to implement this real life basketball game, which has certain rules, I won't reiterate the exact rules as they are above, however I will go over the technical aspects over the problem. 
+
+The first thing is I am going to have to get user(s) input on which position they want to put the money ball rack on, this would be an `int` between $[1,5]$ and store it in a var,  I would have to include error handling on this as the user is allowed to not put in an number in that range. Afterwards I will have to prompt the user to put in their "shooting capability" which is an `int` between $[1,99]$, again including error handling. 
+
+Next, I am going to to have to implement the shooting for each rack where each rack has five shots, the way to determine if a shot is going to be made is to generate a random `int` that is between the range $[1,100]$ and compare this number with the users inputted shooting capability and if the random number is smaller or equal to the shooting capability, then the shot will be marked as made; otherwise it is marked as missed. I will most likely store the shots in an arr, so that after all five shots have been shot, I can output the score. 

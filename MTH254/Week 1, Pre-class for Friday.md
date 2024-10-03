@@ -9,4 +9,41 @@ Suppose $(x_0,y_0,z_0)$ is a point in plane P. Suppose $\vec{n} = \langle{a,b,c}
 
 Let $(x,y,z)$ represent an arbitrary point in the plane. Then the vector $\vec{u} = \langle{x-x_0, y-y_{0},z-z_{0}}\rangle$ is perpendicular to $\vec{n}$. So the plane is determined by $\vec{n}\cdot\vec{u} = 0$, equivalently $a(x-x_{0}) + b(y-y_{0}) +c(z-z_{0}) = 0$, or $ax +by + cz = d$ where $d = ax_0 + by_0 +cz_0$. 
 
-A function of one var that outputs a vector is a <u>vector-valued function</u>. 
+---
+**A function of one var that outputs a vector is a <u>vector-valued function</u>**. Such as $\vec{u}(t) = \langle{x(t),y(t)}\rangle$ (2D) or $\vec{v}(t) = \langle{x(t),y(t),z(t)}\rangle$ (3D), where each component is a function. The graph of these functions is a curve traced out by the pos of the heads of the vectors $\vec{v}(t)$ when their tails are placed at the origin. 
+
+![[Screenshot 2024-10-03 at 10.54.57 AM.png]]
+graph of $\vec{v}(t) = \langle{\cos(t), \sin(t)}\rangle$ 
+
+![[Screenshot 2024-10-03 at 10.57.33 AM.png]]
+graph of $\vec{u}(t) = \langle{t\sin (t),t\cos(t), t}\rangle$ for $t \geq 0$ 
+
+---
+**Lines in a plane or in space:**
+let $\ell$ be a line in $\mathbb{R^2}$ or $\mathbb{R^3}$. The line $\ell$ is uniquely determined by two distinct points on it. Let $A$ and $B$ be two points on $\ell$. Let $\vec{r_{0}} = \vec{OA}$ where $O$ is the origin and $\vec{d} = \vec{AB}$, which is parallel to the line $\ell$. Then the line $\ell$ is the graph of $\vec{r}(t)=\vec{r_{0}}+t\vec{d}$.   
+
+![[Screenshot 2024-10-03 at 1.55.07 PM.png]]
+Explanation on this in this [video](https://canvas.oregonstate.edu/courses/1978938/pages/preparation-for-fri-week-1-2?module_item_id=24780155) at <u>9:09</u> 
+
+In terms of cords, the graph of $\vec{r}(t) = \langle{x_{0}+t(x_{1}-x_{0}),y_{0}+t(y_{1}-y_{0}),z_{0}+t(z_{1}-z_{0})}$
+
+---
+**Limits:**
+
+A vector $\vec{v}(t)$ approaches a vector limit $\vec{L}$ as $t$ approaches $a$ if $|\vec{v}(t) - \vec{L}|$ is arbitrarily close to $0$ for $t$ sufficiently close to $a$, but not equal to $a$. If $\vec{v}(a)$ equals the limit of $\vec{v}(t)$ as $t\to a$, then $\vec{v}(t)$ is continuous at $t =a$ 
+
+The limit of a vector-valued function exists if and only if the corresponding limit of each component function exists. 
+
+WTF does all this mean? This is legit just single variable calc but with vectors instead lol. 
+
+---
+
+**(Supplemental instruction) Revisiting Lines in $\mathbb{R^2}$ to better understand planes in $\mathbb{R^3}$:**
+
+In traditional algebra, we learn that a line through the point $(x_{0},y_{0})$ with slope $m$ is given by the equation $y-y_{0} = m(x -x_{0})$ (point slope form)
+
+While we don't pay attention to the standard form of a line, $ax+by =c$. We are going to put this form in focus: 
+
+
+
+

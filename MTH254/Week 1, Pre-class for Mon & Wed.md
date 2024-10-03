@@ -1,4 +1,5 @@
-#mth254 
+
+	#mth254 
 # Dot and Cross Products
 ---
 **2D:** The dot product of two vectors $\vec{u} = \langle{u_1,u_2} \rangle$﻿ and $\vec{v} = \langle{v_1,v_2}\rangle$﻿ is the scalar $u_1v_1 + u_2v_2$﻿  
