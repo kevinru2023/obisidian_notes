@@ -1,5 +1,4 @@
-
-	#mth254 
+#mth254 
 # Dot and Cross Products
 ---
 **2D:** The dot product of two vectors $\vec{u} = \langle{u_1,u_2} \rangle$﻿ and $\vec{v} = \langle{v_1,v_2}\rangle$﻿ is the scalar $u_1v_1 + u_2v_2$﻿  
@@ -42,10 +41,6 @@ due to the above, one can show that $|\vec{u}\times\vec{v}| $﻿ is the area of 
 
 ![[Screenshot_2024-09-29_at_9.33.56_PM.png]]
 
-  
 
 For a proof of this geometrically check out timestamp **14:36** on this [video](https://canvas.oregonstate.edu/courses/1978938/pages/preparation-for-mon-and-wed-week-1?module_item_id=24780150)
-
-  
-
 **If vectors** $\vec{u},\vec{v}$﻿ **in** $\mathbb{R}^3$﻿ **are orthogonal then their cross product is equal to a vector orthogonal to both and with a magnitude equal to the product of their magnitudes.**
