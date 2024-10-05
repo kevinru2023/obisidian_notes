@@ -61,7 +61,11 @@ Suppose $(x_{0}, y_{0},z_{0})$ is a point in a plane $P$. Suppose $\vec{n}=\lang
 
 Let $(x,y,z)$ represent an arbitrary point in the plane. Then the vector $\vec{u}=\langle x-x_{0},y-y_{0},z-z_{0} \rangle$, then $\vec{u}\perp{}\vec{n}$. So the plane is determined by $\vec{n}\cdot{}\vec{u}=0$, equivalently $\boxed{ax+by+cz=d \text{ where } d=ax_{0}+by_{0}+cz_{0}}$. Which is called the standard form for an equation of the plane. 
 
-Using this, the geometric significance of the "standard form" is the same regardless if its a line in $\mathbb{R^3}$ or a plane in $\mathbb{R^3}$. The vector formed the coefficients on the variables is perpendicular to the geometric object. 
+Using this, the geometric significance of the "standard form" is the same regardless if its a line in $\mathbb{R^3}$ or a plane in $\mathbb{R^3}$. The vector formed the coefficients on the variables is perpendicular to the geometric object.
+
+Additionally, for the vector $\vec{n}$ <u>any scalar multiple vector of this normal vector</u> is also considered to be orthogonal to the plane! 
+
+This [video](https://youtu.be/2sZKZHyaQJ8?si=wxH85sSqhx9KC8ec) explains this concept really well 
 
 ---
 **Example:**
