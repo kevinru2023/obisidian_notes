@@ -28,6 +28,8 @@ let $\ell$ be a line in $\mathbb{R^2}$ or $\mathbb{R^3}$. The line $\ell$ is uni
 Explanation on this in this [video](https://canvas.oregonstate.edu/courses/1978938/pages/preparation-for-fri-week-1-2?module_item_id=24780155) at <u>9:09</u> 
 
 In terms of cords, the graph of $\vec{r}(t) = \langle{x_{0}+t(x_{1}-x_{0}),y_{0}+t(y_{1}-y_{0}),z_{0}+t(z_{1}-z_{0})}$
+or 
+$\vec{r}(t)=P+t \vec{d}$ where p is the starting point and d is the direction vector
 
 ---
 **Limits:**
@@ -60,7 +62,7 @@ Suppose $(x_{0}, y_{0},z_{0})$ is a point in a plane $P$. Suppose $\vec{n}=\lang
 ![[Screenshot 2024-10-03 at 3.09.44 PM.png]]
 
 Let $(x,y,z)$ represent an arbitrary point in the plane. Then the vector $\vec{u}=\langle x-x_{0},y-y_{0},z-z_{0} \rangle$, then $\vec{u}\perp{}\vec{n}$. So the plane is determined by $\vec{n}\cdot{}\vec{u}=0$, equivalently $\boxed{ax+by+cz=d \text{ where } d=ax_{0}+by_{0}+cz_{0}}$. Which is called the standard form for an equation of the plane. 
-
+	
 Using this, the geometric significance of the "standard form" is the same regardless if its a line in $\mathbb{R^3}$ or a plane in $\mathbb{R^3}$. The vector formed the coefficients on the variables is perpendicular to the geometric object.
 
 Additionally, for the vector $\vec{n}$ <u>any scalar multiple vector of this normal vector</u> is also considered to be orthogonal to the plane! 

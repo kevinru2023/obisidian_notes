@@ -51,7 +51,7 @@ $\text{Zero vector: }\vec{0}$
 
   
 
-**Unit vector:** a vector $\vec{u}$﻿ is a unit vector if it has $|\vec{u}| = 1$﻿. A unit vector is denoted by $\hat{u}$﻿
+**Unit vector:** a vector $\vec{u}$﻿ is a unit vector if it has $|\vec{u}| = 1$﻿. A unit vector is denoted by $\hat{u}$. Additionally,  $\vec{u}=\frac{1}{|\vec{v}|}\vec{v}$﻿. 
 
   
 
@@ -72,3 +72,5 @@ $\boxed{\vec{v} = |\vec{v}|\cdot \hat{u}}$
 Forces can be represented by vectors. When an object is at rest (or moving at a constant velocity) the net force is $\vec{0}$﻿.
 
 **Peep this example (cooked example ngl) —>** [2.2 example](https://canvas.oregonstate.edu/courses/1978938/files/107166734?wrap=1)
+
+

@@ -9,7 +9,7 @@
 
 ![[Screenshot_2024-09-29_at_8.26.26_PM.png]]
 
-====**Additional identity:**==== ====$\boxed{\vec{u}\cdot\vec{v}=|\vec{u}||\vec{v}|\cos{\theta}}$====﻿ ====(derived from law of cosines)====
+==**Additional identity:**== ====$\boxed{\vec{u}\cdot\vec{v}=|\vec{u}||\vec{v}|\cos{\theta}}$====﻿ ==(derived from law of cosines)==
 
 ==$\vec{u}\perp\vec{v}$==﻿ ==**if and only if**== ==$\vec{u}\cdot\vec{v} = 0$==﻿
 
@@ -21,7 +21,9 @@
 
 ==**formula for above**== ==$\boxed{proj_v(u) = (\frac{\vec{u}\cdot\vec{v}}{\vec{v}\cdot\vec{v}})\vec{v}}$==﻿
 
-  
+Supplementary [explanation](https://flexbooks.ck12.org/cbook/ck-12-precalculus-concepts-2.0/section/7.5/primary/lesson/vector-projection-pcalc/)
+Supplementary [example](https://math.stackexchange.com/questions/3843684/find-the-magnitude-of-the-force-required-to-keep-a-4000-lb-car-from-rolling-down)
+
 ---
 **Cross product:** the cross product of two 3D vectors $\vec{u} = \langle{u_1,u_2,u_3}\rangle$﻿ and $\vec{v} = \langle{v_1,v_2,v_3}\rangle$﻿ (in that order) is $\vec{u}\times\vec{v}$﻿ and is defined as:
 
@@ -37,7 +39,7 @@ $\boxed{\vec{u}\times\vec{v} = |\vec{u}||\vec{v}|\sin{\theta}}$
 
   
 
-due to the above, one can show that $|\vec{u}\times\vec{v}| $﻿ is the area of the parallelogram whose non-parallel sides are $\vec{u}$﻿ and $\vec{v}$﻿
+due to the above, one can show that $|\vec{u}\times\vec{v}|$﻿ is the area of the parallelogram whose non-parallel sides are $\vec{u}$﻿ and $\vec{v}$﻿
 
 ![[Screenshot_2024-09-29_at_9.33.56_PM.png]]
 
