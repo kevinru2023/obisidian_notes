@@ -1,4 +1,4 @@
-#mth254
+ #mth254
 # Vectors
 ---
 In this course we will be focused on vectors in the 2D plane $(\mathbb{R}^2)$﻿ or in 3D space $(\mathbb{R}^3)$﻿  

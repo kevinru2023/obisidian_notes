@@ -2,7 +2,7 @@
 - [x] complete story map pt 1 ✅ 2024-10-11
 - [x] Make sure XCODE is working ✅ 2024-10-10
 - [ ] ICPC questions 
-- [ ] basicpentestingjt on TryHackMe 
+- [x] basicpentestingjt on TryHackMe ✅ 2024-10-21
 - [ ] Cicada on HTB 
 - [ ] NSA Codebreaker chal 2(this is not happening lol)
 - [ ] pwncollege prac

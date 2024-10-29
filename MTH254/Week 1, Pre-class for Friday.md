@@ -10,6 +10,7 @@ Suppose $(x_0,y_0,z_0)$ is a point in plane P. Suppose $\vec{n} = \langle{a,b,c}
 Let $(x,y,z)$ represent an arbitrary point in the plane. Then the vector $\vec{u} = \langle{x-x_0, y-y_{0},z-z_{0}}\rangle$ is perpendicular to $\vec{n}$. So the plane is determined by $\vec{n}\cdot\vec{u} = 0$, equivalently $a(x-x_{0}) + b(y-y_{0}) +c(z-z_{0}) = 0$, or $ax +by + cz = d$ where $d = ax_0 + by_0 +cz_0$. 
 
 Explanation in this [video](https://canvas.oregonstate.edu/courses/1978938/pages/preparation-for-fri-week-1-2?module_item_id=24780155) at <u>1:32</u>
+Another explanation in this [video](https://www.youtube.com/watch?v=HjJ140TYbXQ) 
 
 ---
 **A function of one var that outputs a vector is a <u>vector-valued function</u>**. Such as $\vec{u}(t) = \langle{x(t),y(t)}\rangle$ (2D) or $\vec{v}(t) = \langle{x(t),y(t),z(t)}\rangle$ (3D), where each component is a function. The graph of these functions is a curve traced out by the pos of the heads of the vectors $\vec{v}(t)$ when their tails are placed at the origin. 
