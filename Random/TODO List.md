@@ -7,3 +7,6 @@
 - [ ] NSA Codebreaker chal 2(this is not happening lol)
 - [ ] pwncollege prac
 - [ ] leetcode prac 
+- [ ] Finish Breach AD 
+- [ ] STUDY LIKE A CRAZY MAN 
+- [ ] LeetCode??? 

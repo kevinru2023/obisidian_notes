@@ -7,8 +7,9 @@
 - [Week 3](#week-3)
 - [Week 4](#week-4)
 - [Week 5](#week-5)
+- [Week 6](#week-6)
 
-<!-- headings -->
+
 ### Week 0 
 - Intro to Vectors - [[Week 0, Pre-class for Fri]] 
 - Vectors in the Plane - [2.1](https://openstax.org/books/calculus-volume-3/pages/2-1-vectors-in-the-plane)
@@ -48,3 +49,13 @@
 - Tangent Planes, Linear Approximation & Optimization of Functions of Two Variables  - [[Week 5, Pre-class for Mon & Wed]]
 - Tangent Planes and Linear Approximation - [4.4](https://openstax.org/books/calculus-volume-3/pages/4-4-tangent-planes-and-linear-approximations)
 - Maxima/Minima problems - [4.7](https://openstax.org/books/calculus-volume-3/pages/4-7-maxima-minima-problems)
+- Lagrange Multipliers - [[Week 5, Pre-class for Friday]]
+- Lagrange Multipliers (OpenStax) - [4.8](https://openstax.org/books/calculus-volume-3/pages/4-8-lagrange-multipliers)
+
+### Week 6 
+- Double Integrals -  [[Week 6, Pre-class for Mon & Fri]]
+- Midterm on 11-07-24 
+- Double Integrals over Rectangular Regions - [5.1](https://openstax.org/books/calculus-volume-3/pages/5-1-double-integrals-over-rectangular-regions)
+- Double Integrals over Regions of Integration - [5.2](https://openstax.org/books/calculus-volume-3/pages/5-2-double-integrals-over-general-regions)
+
+

@@ -2,7 +2,7 @@
 
 # Functions of several variables
 --- 
-![[Drawing 2024-10-10 16.57.57.excalidraw]]
+![[typical_3d_function_graphs.excalidraw]]
 (3D graphs basically)
 (Study Achieve 2.6 to really nail down equations to graphs)
 Note: A hyperbolic paraboloid is also called a "saddle" (looks like a Pringle to me)
