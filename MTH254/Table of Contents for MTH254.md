@@ -53,7 +53,7 @@
 - Lagrange Multipliers (OpenStax) - [4.8](https://openstax.org/books/calculus-volume-3/pages/4-8-lagrange-multipliers)
 
 ### Week 6 
-- Double Integrals -  [[Week 6, Pre-class for Mon & Fri]]
+- Double Integrals -  [[Week 6, Pre-class for Monday]]
 - Midterm on 11-07-24 
 - Double Integrals over Rectangular Regions - [5.1](https://openstax.org/books/calculus-volume-3/pages/5-1-double-integrals-over-rectangular-regions)
 - Double Integrals over Regions of Integration - [5.2](https://openstax.org/books/calculus-volume-3/pages/5-2-double-integrals-over-general-regions)
