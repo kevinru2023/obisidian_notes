@@ -119,7 +119,7 @@
 - Machine Independent (# of steps to completion)
 - Ignores smaller operations, ex: O(n +1) --> O(n)
 - N is representation of data we are passing in. 
-- Graph of times ->[[big_o_graph.png]]
+- Graph of times: ![[big_o_graph.png]]
 - $O(1)$ = constant time
   - Inserting at the beginning of linked list 
   - random access of an element in an array 

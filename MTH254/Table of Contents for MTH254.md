@@ -1,6 +1,6 @@
 #mth254
 
-**Table of content:**
+**Table of contents:**
 - [Week 0](#week-0)
 - [Week 1](#week-1)
 - [Week 2](#week-2)
@@ -8,7 +8,10 @@
 - [Week 4](#week-4)
 - [Week 5](#week-5)
 - [Week 6](#week-6)
-
+- [Week 7](#week-7)
+- [Week 8](#week-8)
+- No week 9, Holidays
+- [Week 10](#week-10)
 
 ### Week 0 
 - Intro to Vectors - [[Week 0, Pre-class for Fri]] 
@@ -53,9 +56,22 @@
 - Lagrange Multipliers (OpenStax) - [4.8](https://openstax.org/books/calculus-volume-3/pages/4-8-lagrange-multipliers)
 
 ### Week 6 
-- Double Integrals -  [[Week 6, Pre-class for Monday]]
+- Double Integrals -  [[Week 6, Pre-class for Monday.svg]]
 - Midterm on 11-07-24 
 - Double Integrals over Rectangular Regions - [5.1](https://openstax.org/books/calculus-volume-3/pages/5-1-double-integrals-over-rectangular-regions)
 - Double Integrals over Regions of Integration - [5.2](https://openstax.org/books/calculus-volume-3/pages/5-2-double-integrals-over-general-regions)
 
+### Week 7 
+- Double Integrals in Polar Coordinates - [[Week 7, Pre-class for Wed .svg]]
+- Polar Coordinates  - [1.3](https://openstax.org/books/calculus-volume-3/pages/5-3-double-integrals-in-polar-coordinates)
+- Double Intergrals in Polar Coordinates - [5.3](https://openstax.org/books/calculus-volume-3/pages/5-3-double-integrals-in-polar-coordinates)
+- Triple Integrals - [[Week 7 Pre-class for Fri & Mon.svg]]
+- Triple Intergrals (OpenStax)  - [5.4](https://openstax.org/books/calculus-volume-3/pages/5-4-triple-integrals)
 
+### Week 8 
+- Triple Integrals in Spherical and Cylindrical Coordinates - [[Week 8, Pre-class for next two Wednesdays .svg]]
+- Cylindrical and Spherical Coordinates - [2.7](https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates)
+- Triple Integrals in Cylindrical and Spherical Coordinates - [5.5](https://openstax.org/books/calculus-volume-3/pages/5-5-triple-integrals-in-cylindrical-and-spherical-coordinates)
+
+### Week 10 
+- Center of Mass and Change of Variables - [[Week 10, Pre-class for Mon & Wed.svg]]

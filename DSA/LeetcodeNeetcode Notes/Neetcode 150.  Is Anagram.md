@@ -8,7 +8,7 @@ So I may or may not have attempted this problem while fucked up, but heres my ge
 ---
 # Reflection:
 
-Kind of disappointed that I needed as much help to solve this one out but I know I could have probably brute forced a really inefficient solution, but I need to stop doing that, and sit down and think about the problem and realize what tools I have to solve them. 
+Kind of disappointed that I needed as much help to solve this one out but I know I could have probably brute forced a really inefficient solution, but I need to stop doing that. I need to sit down and think about the problem, while also realizing what tools I have to solve them. 
 
 ---
 # Solution: 
@@ -35,3 +35,8 @@ public:
 
 };
 ```
+
+--- 
+# Tricks learned: 
+- Maps have an equality operator which is super sick 
+- If you don't care about validating the map syntax `map[key]++` is a super quick way to count occurrences

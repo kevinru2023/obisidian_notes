@@ -3,7 +3,7 @@
 #### Kevin Rubio | CS162 | 10-21-24
 ---
 ## Problem Statement: 
-	The great wizard school of Pogwarts has been adding a lot of new spellbooks to their library lately. As a result of all the new literature, some mischeivous students have been learnign spells that are dangerous. In addition, it has become increasingly difficult for the staff to find specific spells they. want to teach in class 
+	 The great wizard school of Pogwarts has been adding a lot of new spellbooks to their library lately. As a result of all the new literature, some mischeivous students have been learnign spells that are dangerous. In addition, it has become increasingly difficult for the staff to find specific spells they. want to teach in class 
 
 	In order to alleviate these issues, the school administration has hired you to create a spellbook catalog program that will allow for access restrictin and make searching for spellbooks easier. 
 

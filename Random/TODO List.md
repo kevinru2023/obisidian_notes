@@ -1,12 +1,11 @@
 - [x] finish CS162 assignment 1 (just add comments) ✅ 2024-10-11
 - [x] complete story map pt 1 ✅ 2024-10-11
 - [x] Make sure XCODE is working ✅ 2024-10-10
-- [ ] ICPC questions 
 - [x] basicpentestingjt on TryHackMe ✅ 2024-10-21
 - [ ] Cicada on HTB 
 - [ ] NSA Codebreaker chal 2(this is not happening lol)
 - [ ] pwncollege prac
 - [ ] leetcode prac 
 - [ ] Finish Breach AD 
-- [ ] STUDY LIKE A CRAZY MAN 
+- [x] STUDY LIKE A CRAZY MAN ✅ 2024-11-14
 - [ ] LeetCode??? 
