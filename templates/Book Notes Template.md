@@ -1,5 +1,5 @@
 #books 
-# Info  
+## Info  
 
 | Input     | Output |
 | --------- | ------ |
@@ -11,18 +11,22 @@
 | Status    |        |
 
 --- 
-# Summary 
+### Summary 
 
 > [!Summary] Summary
 > Contents
 
 - -- 
-# Relevant Quotes  
+### Relevant Quotes  
   
 > [!quote] Title
 > Contents
 
 ---
-# Notes  
+### Notes  
 - 
+
+---
+### Annotations 
 - 
+
