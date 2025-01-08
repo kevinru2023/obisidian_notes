@@ -232,3 +232,17 @@ annotation-target::comp programming handbook.pdf
 >%%TAGS%%
 >
 ^wxo54q67q3o
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-13T23:04:26.712Z","updated":"2024-12-13T23:04:26.712Z","document":{"title":"comp programming handbook.pdf","link":[{"href":"urn:x-pdf:a37d3c066bae434ae0996e9fbfbcca24"},{"href":"vault:/book notes/book pdfs /comp programming handbook.pdf"}],"documentFingerprint":"a37d3c066bae434ae0996e9fbfbcca24"},"uri":"vault:/book notes/book pdfs /comp programming handbook.pdf","target":[{"source":"vault:/book notes/book pdfs /comp programming handbook.pdf","selector":[{"type":"TextPositionSelector","start":30247,"end":30374},{"type":"TextQuoteSelector","exact":"A useful property of logarithms is that logk(x) equals the number of times wehave to divide x by k before we reach the number 1","prefix":", logk(x) =a exactly when ka =x.","suffix":". For example, log2(32) =5becaus"}]}]}
+>```
+>%%
+>*%%PREFIX%%, logk(x) =a exactly when ka =x.%%HIGHLIGHT%% ==A useful property of logarithms is that logk(x) equals the number of times wehave to divide x by k before we reach the number 1== %%POSTFIX%%. For example, log2(32) =5becaus*
+>%%LINK%%[[#^0achrew4lvam|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0achrew4lvam

@@ -1,4 +1,6 @@
-- [x] finish CS162 assignment 1 (just add comments) ✅ 2024-10-11
+## General: 
+--- 
+- [ ] finish CS162 assignment 1 (just add comments) ✅ 2024-12-12
 - [x] complete story map pt 1 ✅ 2024-10-11
 - [x] Make sure XCODE is working ✅ 2024-10-10
 - [x] basicpentestingjt on TryHackMe ✅ 2024-10-21
@@ -9,3 +11,12 @@
 - [ ] Finish Breach AD 
 - [x] STUDY LIKE A CRAZY MAN ✅ 2024-11-14
 - [ ] LeetCode??? 
+--- 
+## Current: 
+- [ ] AOC Day 6/7 
+- [ ] Get started on blender to make cool 3D dice 
+- [ ] Get a start on the dashboard for brainrot 
+- [ ] Start on dual boot windows setup 
+- [ ] Some Neetcode 
+- [ ] Scholarships 
+- [ ] Internships 
