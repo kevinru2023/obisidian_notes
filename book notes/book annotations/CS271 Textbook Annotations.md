@@ -382,3 +382,270 @@ annotation-target::cs271 6th edition version.pdf
 >%%TAGS%%
 >
 ^ez6k4eib11w
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-09T22:42:35.238Z","text":"This is a great analogy that might explain why we use the OFFSET keyword in x86 asm","updated":"2025-01-09T22:42:35.238Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":132385,"end":132781},{"type":"TextQuoteSelector","exact":"segmented memory. All of memory is divided into 64-kilobyte(64-KByte) units called segments, shown in Figure 2—8. An analogy is a large building, in whichsegments represent the building’s floors. A person can ride the elevator to a particular floor, getoff, and begin following the room numbers to locate a room. The offset of a room can be thoughtof as the distance from the elevator to the room","prefix":"ycame up with a scheme known as ","suffix":".Again in Figure 2—8, each segme"}]}]}
+>```
+>%%
+>*%%PREFIX%%ycame up with a scheme known as%%HIGHLIGHT%% ==segmented memory. All of memory is divided into 64-kilobyte(64-KByte) units called segments, shown in Figure 2—8. An analogy is a large building, in whichsegments represent the building’s floors. A person can ride the elevator to a particular floor, getoff, and begin following the room numbers to locate a room. The offset of a room can be thoughtof as the distance from the elevator to the room== %%POSTFIX%%.Again in Figure 2—8, each segme*
+>%%LINK%%[[#^9ya72qjtgrt|show annotation]]
+>%%COMMENT%%
+>This is a great analogy that might explain why we use the OFFSET keyword in x86 asm
+>%%TAGS%%
+>
+^9ya72qjtgrt
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-09T22:51:38.928Z","updated":"2025-01-09T22:51:38.928Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":133358,"end":133368},{"type":"TextQuoteSelector","exact":"Figure 2–8","prefix":"00. The linear addressis 80250h.","suffix":" Segmented Memory Map, Real-Addr"}]}]}
+>```
+>%%
+>*%%PREFIX%%00. The linear addressis 80250h.%%HIGHLIGHT%% ==Figure 2–8== %%POSTFIX%%Segmented Memory Map, Real-Addr*
+>%%LINK%%[[#^qael08b0me|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qael08b0me
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-09T22:55:00.664Z","updated":"2025-01-09T22:55:00.664Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":133872,"end":133971},{"type":"TextQuoteSelector","exact":"Programs cannot use linear addresses directly, so addresses areexpressed using two 16-bit integers.","prefix":" 45from 0 to FFFFF hexadecimal. ","suffix":" A segment-offset address includ"}]}]}
+>```
+>%%
+>*%%PREFIX%%45from 0 to FFFFF hexadecimal.%%HIGHLIGHT%% ==Programs cannot use linear addresses directly, so addresses areexpressed using two 16-bit integers.== %%POSTFIX%%A segment-offset address includ*
+>%%LINK%%[[#^79etyjzjadq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^79etyjzjadq
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-09T22:57:38.671Z","text":"This is why we define the .data, .code, and .text sections in asm ","updated":"2025-01-09T22:57:38.671Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":134533,"end":134671},{"type":"TextQuoteSelector","exact":"A typical program has three segments: code, data, and stack. Three segment registers, CS, DS,and SS, contain the segments’ base locations:","prefix":"  0Linear address: 0  9  0  1  0","suffix":"• CS contains the 16-bit code se"}]}]}
+>```
+>%%
+>*%%PREFIX%%0Linear address: 0  9  0  1  0%%HIGHLIGHT%% ==A typical program has three segments: code, data, and stack. Three segment registers, CS, DS,and SS, contain the segments’ base locations:== %%POSTFIX%%• CS contains the 16-bit code se*
+>%%LINK%%[[#^333rdjvgdfp|show annotation]]
+>%%COMMENT%%
+>This is why we define the .data, .code, and .text sections in asm 
+>%%TAGS%%
+>
+^333rdjvgdfp
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-09T22:58:24.141Z","text":"level 08f1, floor 0100. If we are using the elevator/room analogy ","updated":"2025-01-09T22:58:24.141Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":134271,"end":134280},{"type":"TextQuoteSelector","exact":"08F1:0100","prefix":"l  segment-offset  address  is  ","suffix":". The  CPU  multiplies  the  seg"}]}]}
+>```
+>%%
+>*%%PREFIX%%l  segment-offset  address  is%%HIGHLIGHT%% ==08F1:0100== %%POSTFIX%%. The  CPU  multiplies  the  seg*
+>%%LINK%%[[#^jm124kjc15p|show annotation]]
+>%%COMMENT%%
+>level 08f1, floor 0100. If we are using the elevator/room analogy 
+>%%TAGS%%
+>
+^jm124kjc15p
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-11T07:13:07.678Z","updated":"2025-01-11T07:13:07.678Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":207276,"end":207285},{"type":"TextQuoteSelector","exact":"Table 3-2","prefix":" 8 bits of storage. For example,","suffix":"  Intrinsic Data Types.Type Usag"}]}]}
+>```
+>%%
+>*%%PREFIX%%8 bits of storage. For example,%%HIGHLIGHT%% ==Table 3-2== %%POSTFIX%%Intrinsic Data Types.Type Usag*
+>%%LINK%%[[#^dn43nbklqhr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^dn43nbklqhr
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-11T07:17:06.985Z","updated":"2025-01-11T07:17:06.985Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":105472,"end":105484},{"type":"TextQuoteSelector","exact":"Cache Memory","prefix":"  •  x86 Processor Architecture ","suffix":" Because conventional memory is "}]}]}
+>```
+>%%
+>*%%PREFIX%%•  x86 Processor Architecture%%HIGHLIGHT%% ==Cache Memory== %%POSTFIX%%Because conventional memory is*
+>%%LINK%%[[#^o9h9102shba|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^o9h9102shba
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-11T07:20:25.190Z","text":"Note on Syntax for ASM code","updated":"2025-01-11T07:20:25.190Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":176734,"end":176752},{"type":"TextQuoteSelector","exact":"3.1.9 Instructions","prefix":" MASM directives and operators. ","suffix":" An  instruction   is  a  statem"}]}]}
+>```
+>%%
+>*%%PREFIX%%MASM directives and operators.%%HIGHLIGHT%% ==3.1.9 Instructions== %%POSTFIX%%An  instruction   is  a  statem*
+>%%LINK%%[[#^frrgyftjd6p|show annotation]]
+>%%COMMENT%%
+>Note on Syntax for ASM code
+>%%TAGS%%
+>
+^frrgyftjd6p
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-13T23:36:35.601Z","text":"section ASM syntax","updated":"2025-01-13T23:36:35.601Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":168114,"end":168149},{"type":"TextQuoteSelector","exact":"Basic Elements of Assembly Language","prefix":" 3.8 Programming Exercises  3.1 ","suffix":" Chapter  1  introduced  number "}]}]}
+>```
+>%%
+>*%%PREFIX%%3.8 Programming Exercises  3.1%%HIGHLIGHT%% ==Basic Elements of Assembly Language== %%POSTFIX%%Chapter  1  introduced  number*
+>%%LINK%%[[#^tlqauysmn2i|show annotation]]
+>%%COMMENT%%
+>section ASM syntax
+>%%TAGS%%
+>
+^tlqauysmn2i
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T02:05:29.128Z","text":"on instruction operand notation ","updated":"2025-01-14T02:05:29.128Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":239102,"end":239111},{"type":"TextQuoteSelector","exact":"Table 4-1","prefix":"ory—references a memory location","suffix":" lists a simple notation for ope"}]}]}
+>```
+>%%
+>*%%PREFIX%%ory—references a memory location%%HIGHLIGHT%% ==Table 4-1== %%POSTFIX%%lists a simple notation for ope*
+>%%LINK%%[[#^tk6pc1yepm|show annotation]]
+>%%COMMENT%%
+>on instruction operand notation 
+>%%TAGS%%
+>
+^tk6pc1yepm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T17:58:15.265Z","updated":"2025-01-14T17:58:15.265Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":240183,"end":240247},{"type":"TextQuoteSelector","exact":"variable names are references to offsets within the data segment","prefix":"ands Section 3.4 explained that ","suffix":". Forexample,  the  following  d"}]}]}
+>```
+>%%
+>*%%PREFIX%%ands Section 3.4 explained that%%HIGHLIGHT%% ==variable names are references to offsets within the data segment== %%POSTFIX%%. Forexample,  the  following  d*
+>%%LINK%%[[#^qgpch49dupp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qgpch49dupp
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T18:13:37.779Z","text":"what instructions actually get compiled into","updated":"2025-01-14T18:13:37.779Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":240406,"end":240634},{"type":"TextQuoteSelector","exact":"Program  code  contains  instructions  that  dereference  (look  up)  memory  operands  using  theiraddresses. Suppose  var1  were located at offset 10400h. An assembly language instruction mov-ing it to the AL register would be","prefix":"ata segment: .datavar1 BYTE 10h ","suffix":" mov  AL,var1 Microsoft Macro As"}]}]}
+>```
+>%%
+>*%%PREFIX%%ata segment: .datavar1 BYTE 10h%%HIGHLIGHT%% ==Program  code  contains  instructions  that  dereference  (look  up)  memory  operands  using  theiraddresses. Suppose  var1  were located at offset 10400h. An assembly language instruction mov-ing it to the AL register would be== %%POSTFIX%%mov  AL,var1 Microsoft Macro As*
+>%%LINK%%[[#^76m5m0qg04q|show annotation]]
+>%%COMMENT%%
+>what instructions actually get compiled into
+>%%TAGS%%
+>
+^76m5m0qg04q
+
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T18:14:58.868Z","updated":"2025-01-14T18:14:58.868Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":241678,"end":241838},{"type":"TextQuoteSelector","exact":"Alternative  Notation.   Some  programmers  prefer  to  use  the  following  notation  with  direct  operandsbecause the brackets imply a dereference operation:","prefix":"ht-hand operand is the source.) ","suffix":" mov  al,[var1] MASM permits thi"}]}]}
+>```
+>%%
+>*%%PREFIX%%ht-hand operand is the source.)%%HIGHLIGHT%% ==Alternative  Notation.   Some  programmers  prefer  to  use  the  following  notation  with  direct  operandsbecause the brackets imply a dereference operation:== %%POSTFIX%%mov  al,[var1] MASM permits thi*
+>%%LINK%%[[#^y81v5vuj35n|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^y81v5vuj35n
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T18:15:32.305Z","updated":"2025-01-14T18:15:32.305Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":242423,"end":242470},{"type":"TextQuoteSelector","exact":"CS, EIP, and IP cannot be destination operands.","prefix":"ds cannot be memory operands. • ","suffix":" • An immediate value cannot be "}]}]}
+>```
+>%%
+>*%%PREFIX%%ds cannot be memory operands. •%%HIGHLIGHT%% ==CS, EIP, and IP cannot be destination operands.== %%POSTFIX%%• An immediate value cannot be*
+>%%LINK%%[[#^4ev01p23upm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4ev01p23upm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T18:15:37.757Z","text":"mov rules","updated":"2025-01-14T18:15:37.757Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":242249,"end":242338},{"type":"TextQuoteSelector","exact":"MOV is very flexible in its use of operands, as long as the following rules are observed:","prefix":"  Data Transfer Instructions 97 ","suffix":" • Both operands must be the sam"}]}]}
+>```
+>%%
+>*%%PREFIX%%Data Transfer Instructions 97%%HIGHLIGHT%% ==MOV is very flexible in its use of operands, as long as the following rules are observed:== %%POSTFIX%%• Both operands must be the sam*
+>%%LINK%%[[#^q8cadd782lo|show annotation]]
+>%%COMMENT%%
+>mov rules
+>%%TAGS%%
+>
+^q8cadd782lo
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T18:17:32.551Z","text":"important note on how moving one var to another var works. ","updated":"2025-01-14T18:17:32.551Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":242930,"end":243163},{"type":"TextQuoteSelector","exact":"Memory to Memory A  single  MOV  instruction  cannot  be  used  to  move  data  directly  fromone memory location to another. Instead, you must move the source operand’s value to a registerbefore moving its value to a memory operand:","prefix":"/mem16,sreg MOV  sreg,reg/mem16 ","suffix":" .datavar1 WORD ?var2 WORD ?.cod"}]}]}
+>```
+>%%
+>*%%PREFIX%%/mem16,sreg MOV  sreg,reg/mem16%%HIGHLIGHT%% ==Memory to Memory A  single  MOV  instruction  cannot  be  used  to  move  data  directly  fromone memory location to another. Instead, you must move the source operand’s value to a registerbefore moving its value to a memory operand:== %%POSTFIX%%.datavar1 WORD ?var2 WORD ?.cod*
+>%%LINK%%[[#^bltlx3ou1eh|show annotation]]
+>%%COMMENT%%
+>important note on how moving one var to another var works. 
+>%%TAGS%%
+>
+^bltlx3ou1eh
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T19:21:56.827Z","updated":"2025-01-14T19:21:56.827Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":243457,"end":243475},{"type":"TextQuoteSelector","exact":"Overlapping Values","prefix":" constants, refer to Table 1-7. ","suffix":" The following code example show"}]}]}
+>```
+>%%
+>*%%PREFIX%%constants, refer to Table 1-7.%%HIGHLIGHT%% ==Overlapping Values== %%POSTFIX%%The following code example show*
+>%%LINK%%[[#^2myqsmr0icy|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^2myqsmr0icy
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T19:23:26.384Z","updated":"2025-01-14T19:23:26.384Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":244097,"end":244134},{"type":"TextQuoteSelector","exact":"Copying Smaller Values to Larger Ones","prefix":"Zero/Sign Extension of Integers ","suffix":" Although MOV cannot directly co"}]}]}
+>```
+>%%
+>*%%PREFIX%%Zero/Sign Extension of Integers%%HIGHLIGHT%% ==Copying Smaller Values to Larger Ones== %%POSTFIX%%Although MOV cannot directly co*
+>%%LINK%%[[#^qi75qylybmn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qi75qylybmn
+
+
+>%%
+>```annotation-json
+>{"created":"2025-01-14T19:25:47.404Z","updated":"2025-01-14T19:25:47.404Z","document":{"title":"Assembly Language for x86 Processors (Sixth edition)","link":[{"href":"urn:x-pdf:72d08f931fa25ac84e2dfc8557061efb"},{"href":"vault:/book notes/book pdfs /cs271 6th edition version.pdf"}],"documentFingerprint":"72d08f931fa25ac84e2dfc8557061efb"},"uri":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","target":[{"source":"vault:/book notes/book pdfs /cs271 6th edition version.pdf","selector":[{"type":"TextPositionSelector","start":245244,"end":245320},{"type":"TextQuoteSelector","exact":"MOVZX and MOVSX instructions to deal with both unsigned and signed integers.","prefix":"386 processor and introduced the","suffix":" MOVZX Instruction The MOVZX ins"}]}]}
+>```
+>%%
+>*%%PREFIX%%386 processor and introduced the%%HIGHLIGHT%% ==MOVZX and MOVSX instructions to deal with both unsigned and signed integers.== %%POSTFIX%%MOVZX Instruction The MOVZX ins*
+>%%LINK%%[[#^qh8qzwf8ikd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qh8qzwf8ikd

@@ -66,7 +66,6 @@ productivity:
 - [ ] Code 
 - [ ] Learn one new thing
 - [ ] Read 
-- [ ] Draw 
 
 > [!BRAIN]- Brain Dump
 > Fill in here
