@@ -1,4 +1,10 @@
-.obsidian/ 
+.obsidian/
 
-.trash/ 
-.DS_Store 
+.trash/
+.DS_Store
+.env
+raw-sources/
+.claude/worktrees/
+.claude/settings.local.json
+.makemd/
+.space/

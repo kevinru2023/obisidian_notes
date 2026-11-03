@@ -1,0 +1,7 @@
+# Codex CLI project config for Kevin's personal wiki
+# Teaches Codex to read CLAUDE.md (same as OpenCode/Claude Code)
+project_doc_fallback_filenames = ["AGENTS.md", "CLAUDE.md"]
+
+[mcp_servers.qmd]
+command = "qmd"
+args = ["mcp"]

@@ -1,0 +1,4 @@
+markitdown
+markitdown-ocr
+anthropic
+python-dotenv
